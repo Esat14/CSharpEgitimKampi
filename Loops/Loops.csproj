@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B93ACFA8-15B0-4E3E-838A-B81A0F47C996}</ProjectGuid>
+    <ProjectGuid>{F8E76371-250F-465B-86E4-6D0CFE5D5607}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CSharpEgitimKampi_01</RootNamespace>
-    <AssemblyName>CSharpEgitimKampi_01</AssemblyName>
+    <RootNamespace>Loops</RootNamespace>
+    <AssemblyName>Loops</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,9 +32,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject>CSharpEgitimKampi_01.LoopsWithStars</StartupObject>
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,8 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="LoopsWithStars.cs" />
-    <Compile Include="method.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
