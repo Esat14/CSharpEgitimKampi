@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach"
+        },
+
+        {
+            "type": "coreclr",
+            "request": "launch",
+            "name": "Launch CSharpEgitimKampi_01",
+            "program": "${workspaceFolder}/CSharpEgitimKampi_01/bin/Debug/netcoreapp3.1/CSharpEgitimKampi_01.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/CSharpEgitimKampi_01",
+            "stopAtEntry": false
+        }
+    ]
+}
